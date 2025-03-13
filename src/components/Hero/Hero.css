@@ -1,0 +1,109 @@
+.hero{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: auto; 
+    gap: 20px;
+}
+  .hero img {
+    width: 250px; /* Adjust image size */
+    height: auto;
+    margin: 20px;
+    margin-top: 50px;
+    border-radius: 50%; /* Circular image */
+    box-shadow: 0 4px 8px rgba(193, 70, 214, 0.9); /* Soft shadow */
+    transition: transform 0.3s ease-in-out;
+  }
+  .hero img:hover {
+    transform: scale(1.05);
+  }
+  .hero h1{
+    text-align: center;
+    width: 70%;
+    font-size:90px;
+    font-weight: 600;
+
+}
+.hero h1 span{
+    background:linear-gradient(270deg, #DF8908 10%,#B415FF 100.2%);
+    background-clip:text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.hero h2 span{
+    background:linear-gradient(270deg, #F1CA74 10%,#A64DB6 100.2%);
+    background-clip:text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.hero p{
+    width: 50%;
+    text-align: center;
+    font-size: 24px;
+    line-height: 40px;
+}
+
+/* Social Links Styling */
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  .icon {
+    font-size: 28px;
+    color: sandybrown;
+    transition: transform 0.3s ease-in-out, color 0.3s;
+  }
+  
+  .icon:hover {
+    transform: scale(1.2);
+  }
+  
+  .github:hover {
+    color: #333;
+  }
+  
+  .linkedin:hover {
+    color: #0077b5;
+  }
+  
+  .twitter:hover {
+    color: #1da1f2;
+  }
+  
+  .instagram:hover {
+    color: #e4405f;
+  }
+  
+
+.hero-action{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+.hero-connect{
+    padding: 25px 45px;
+    border-radius: 50px;
+    background:linear-gradient(264deg, #DF8908 -5.09%,#B415FF 100%);
+    cursor: pointer;
+}
+.hero-resume{
+    padding: 25px 75px;
+    border-radius: 50px;
+    border:3px solid white;
+    cursor: pointer;
+}
+
+.hero-connect:hover{
+    border: 2px solid white;
+
+}
+.hero-resume:hover{
+    border: 2px solid violet;
+}
