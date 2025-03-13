@@ -1,0 +1,122 @@
+.project {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: black;
+}
+
+.project-title h1 {
+  color: white;
+  font-size: 80px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  position: relative;
+  z-index: 2;
+  padding: 30px 50px;
+}
+
+.project-title img {
+  position: absolute;
+  top: 478%;
+  left: 58%;
+  transform: translate(-50%, -50%);
+  width: 150px;
+  z-index: 1;
+}
+
+.project-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.project-card {
+  background: #b5abd1;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.project-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+.project-card p {
+  font-size: 1rem;
+  color: #555;
+}
+
+.tech-stack {
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: #444;
+  margin-top: 10px;
+}
+
+.project-links {
+  margin-top: 15px;
+}
+
+.github-link {
+  display: inline-block;
+  background: purple;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.github-link:hover {
+  background: black;
+}
+
+@media screen and (max-width: 768px) {
+  .project-title {
+      flex-direction: column; /* Stack title & image */
+      gap: 5px;
+  }
+
+  .project-title h1 {
+      font-size: 60px;
+  }
+
+  .project-title img {
+      width: 160px;
+      top:4200px;
+  }
+
+  .project-container {
+      grid-template-columns: 1fr; /* Change to one column layout */
+      gap: 15px;
+  }
+
+  .project-card {
+      padding: 15px; /* Reduce padding for mobile */
+  }
+
+  .project-card h3 {
+      font-size: 1.2rem;
+  }
+
+  .project-card p {
+      font-size: 0.95rem;
+  }
+
+  .tech-stack {
+      font-size: 0.85rem;
+  }
+
+  .project-links .github-link {
+      font-size: 0.9rem;
+      padding: 6px 10px;
+  }
+}

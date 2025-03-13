@@ -1,0 +1,89 @@
+/* Footer Container */
+.footer {
+    background-color:#040720 ;
+    color: white;
+    padding: -10px 10px;
+    text-align: center;
+  }
+  .footer-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0px;
+  }
+
+  .footer-top img {
+    width: 200px; 
+   height: 200px; 
+   display: block;
+   margin: 0 auto;
+   margin-bottom: -60px;
+   margin-right: 10px;
+  }
+  .footer-top p {
+    font-size: 20px;
+    color: #ccc;
+    margin: 5px 0;
+  }
+
+  .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+  }
+  
+  .social-links a {
+    color: white;
+    font-size: 1.5rem;
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+  
+  .social-links a:hover {
+    transform: scale(1.1);
+  }
+
+  .icon.github:hover {
+    color: #333;
+  }
+  .icon.linkedin:hover {
+    color: #0077b5;
+  }
+  .icon.twitter:hover {
+    color: #1da1f2;
+  }
+  .icon.instagram:hover {
+    color: #e1306c;
+  }
+  .footer-text {
+    font-size: 14px;
+    margin-top: 10px;
+    color: #bbb;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .footer {
+        padding: 20px;
+    }
+
+    .footer-top-left img {
+        width: 150px; /* Reduce logo size */
+    }
+
+    .footer-top-left p {
+        font-size: 0.9rem;
+    }
+
+    .social-links {
+        gap: 10px; /* Reduce gap between icons */
+    }
+
+    .icon {
+        font-size: 1.3rem;
+    }
+
+    .footer-text {
+        font-size: 0.85rem;
+    }
+}
+  
