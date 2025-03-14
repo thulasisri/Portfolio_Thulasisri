@@ -28,7 +28,7 @@ const Hero = () => {
         <div id=''className="hero-connect">
             connect with me 
             <a href="tel:+91 6385271691" target="_blank" rel="noopener noreferrer">
-            <FontAwesomeIcon icon={faPhone} className="icon phone" />
+            <FontAwesomeIcon icon={faPhone} className="icon-phone" />
         </a>
         </div>
         <div className="hero-resume"><a href="/resume.pdf" download="My_Resume.pdf">My Resume</a>

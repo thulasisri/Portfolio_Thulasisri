@@ -139,7 +139,8 @@
     }
     .about-title img {
         width: 140px; 
-        top:1670px; 
+        top:1230px;
+        left: 500px; 
     }
 
     .about-left img {

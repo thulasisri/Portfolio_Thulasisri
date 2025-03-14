@@ -69,16 +69,15 @@
   .linkedin:hover {
     color: #0077b5;
   }
-  
-  .twitter:hover {
-    color: #1da1f2;
+  .icon-phone {
+    color: purple;
+    padding: 2px 5px;
+  } 
+  .icon-phone:hover {
+    color: blueviolet; /* Darker green on hover */
+    transform: scale(1.1); /* Slight zoom effect */
   }
   
-  .instagram:hover {
-    color: #e4405f;
-  }
-  
-
 .hero-action{
     display: flex;
     align-items: center;
@@ -107,3 +106,47 @@
 .hero-resume:hover{
     border: 2px solid violet;
 }
+
+@media (max-width: 768px) {
+  .hero {
+    padding: 15px;
+  }
+
+  .hero h1 {
+    font-size: 24px;
+  }
+
+  .hero h2 {
+    font-size: 16px;
+  }
+
+  .hero p {
+    font-size: 14px;
+  }
+
+  .icon {
+    padding: 10px;
+  }
+
+  .hero-resume a {
+    font-size: 20px;
+    padding: 6px 0px;
+      padding: 8px 12px;
+      width: 90%;
+      text-align: center;
+      text-decoration: none;
+      color: white;
+    }
+    .hero-resume a:hover{
+      text-decoration: none;
+    }
+  }
+  .icon-phone {
+    color: blue; /* Default green color */
+  }
+  
+  .icon-phone:hover {
+    color: rebeccapurple; /* Darker green on hover */
+    transform: scale(1.1); /* Slight zoom effect */
+  }
+  
