@@ -6,8 +6,8 @@ const project = [
     title: "Portfolio Website",
     description: "A personal portfolio website showcasing my projects and skills.",
     technologies: ["React JS", " CSS", "Javascript"],
-    liveDemo: "https://your-portfolio.vercel.app",
-    github: "https://github.com/thulasisri/Portfolio.git",
+    liveDemo: "https://portfolio-thulasisribalamurugan-git-main-thulasi-sris-projects.vercel.app",
+    github: "https://github.com/thulasisri/Portfolio_Thulasisri.git",
   },
   {
     title: "E-Commerce Landing Page",

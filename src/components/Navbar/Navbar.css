@@ -55,7 +55,7 @@ a:hover {
 
 @media(max-width:768px) {
   .navbar {
-    margin: 0px 50px;
+    margin: 0px 30px;
     margin-top: -80px;
   }
 
@@ -84,22 +84,6 @@ a:hover {
      gap: 20px;    
   }
   }
-/* .nav-menu{
-  position: fixed;
-  top: 0;
-  right: -100%; 
-  width: 250px;
-  height: 100vh;
-  background-color: #222;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  transition: right 0.3s ease-in-out;
-}  */
-
-
-/* Prevent content from being hidden behind navbar */
 body {
   padding-top: 80px;  
 }
